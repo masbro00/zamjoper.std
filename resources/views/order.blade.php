@@ -51,8 +51,8 @@
 
                 <!-- Pilihan Layanan -->
                 <div>
-                    <label for="service" class="block text-lg font-medium text-gray-700">Pilih Layanan</label>
-                    <select id="service" name="service" required class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black">
+                    <label for="service-type" class="block text-lg font-medium text-gray-700">Pilih Layanan</label>
+                    <select id="service-type" name="service_type" required class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black">
                         <option value="product-photography">Product Photography</option>
                         <option value="influencer-marketing">Influencer Marketing</option>
                         <option value="photography-and-marketing">Photography & Influencer Marketing</option>
@@ -61,8 +61,8 @@
 
                 <!-- Pesan -->
                 <div>
-                    <label for="message" class="block text-lg font-medium text-gray-700">Pesan / Detail Layanan</label>
-                    <textarea id="message" name="message" rows="4" required class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black" placeholder="Tuliskan pesan atau detail tambahan tentang pesanan Anda"></textarea>
+                    <label for="service-message" class="block text-lg font-medium text-gray-700">Pesan / Detail Layanan</label>
+                    <textarea id="service-message" name="service_message" rows="4" required class="w-full p-3 mt-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-black" placeholder="Tuliskan pesan atau detail tambahan tentang pesanan Anda"></textarea>
                 </div>
 
                 <!-- Button -->

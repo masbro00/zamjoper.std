@@ -14,12 +14,12 @@ class OrderController extends Controller
     {
         // Validasi data yang diterima
         $validated = $request->validate([
-            'name' => 'required|string|max:255',
+            'full_name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
-            'address' => 'required|string|max:500',
-            'order_details' => 'required|string',
+            'service_type' => 'required|string|max:500',
+            'service_message' => 'required|string',
         ]);
-
+        
         // Simpan pesanan ke database
         Order::create($validated);
 
